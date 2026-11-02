@@ -3,10 +3,10 @@ let dataPromise
 async function loadData() {
   if (!dataPromise) {
     dataPromise = Promise.all([
-      fetch('/ai/vocabulary.json'),
-      fetch('/ai/classifier.json'),
-      fetch('/ai/profile.json'),
-      fetch('/ai/training-data.json'),
+      fetch(`${import.meta.env.BASE_URL}ai/vocabulary.json`),
+      fetch(`${import.meta.env.BASE_URL}ai/classifier.json`),
+      fetch(`${import.meta.env.BASE_URL}ai/profile.json`),
+      fetch(`${import.meta.env.BASE_URL}ai/training-data.json`),
     ]).then(async ([vocabularyResponse, classifierResponse, profileResponse, trainingResponse]) => {
       if (![vocabularyResponse, classifierResponse, profileResponse, trainingResponse].every((response) => response.ok)) {
         throw new Error('Could not load the portfolio assistant data.')
