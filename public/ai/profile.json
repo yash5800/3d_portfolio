@@ -1,0 +1,549 @@
+
+{
+  "profile": {
+    "name": "Alaparthi Yaswanth Kiran",
+    "preferred_name": "Yaswanth",
+    "headline": "Full Stack Developer | AI Application Developer",
+    "location": "Andhra Pradesh, India",
+    "email": "yaswanthjk580@gmail.com",
+    "github": "https://github.com/yash5800",
+    "linkedin": "https://linkedin.com/in/alaparthi-yaswanth-kiran",
+
+    "summary": "I am a Computer Science graduate interested in building web applications, mobile applications, and AI-powered software. I enjoy turning real-world problems into practical software solutions. I have developed applications that combine AI chat interfaces with product recommendations and automatic cart management. I have also built file storage platforms based on practical requirements and worked on modernizing legacy software. During my second year of B.Tech, a friend and I rebuilt an old library management system from scratch while learning PHP and SQL. I am currently exploring Agentic AI, NLP, computer vision, AI automation, and new technologies.",
+
+    "personality": [
+      "Creative",
+      "Curious",
+      "Problem solver",
+      "Self learner",
+      "Experimentative",
+      "Practical thinker"
+    ],
+
+    "interests": [
+      "Web Development",
+      "Mobile App Development",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Agentic AI",
+      "Blender 3D",
+      "3D Modeling",
+      "Video Editing",
+      "Gaming",
+      "Open Source Software",
+      "Learning New Technologies"
+    ],
+
+    "working_style": [
+      "Enjoys building practical projects",
+      "Learns technologies by implementing real-world solutions",
+      "Interested in experimenting with new tools and technologies",
+      "Prefers privacy-focused and efficient applications"
+    ]
+  },
+
+  "education": [
+    {
+      "level": "B.Tech",
+      "qualification": "Computer Science and Engineering",
+      "institution": "Seshadri Rao Gudlavalleru Engineering College",
+      "location": "Gudlavalleru, India"
+    }
+  ],
+
+  "skills": {
+    "programming_languages": [
+      "Python",
+      "C",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "PHP"
+    ],
+
+    "frontend": [
+      "React.js",
+      "Next.js",
+      "React Native",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Bootstrap"
+    ],
+
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "Flask",
+      "FastAPI",
+      "REST APIs",
+      "API Integration"
+    ],
+
+    "databases": [
+      "MySQL",
+      "SQL",
+      "MongoDB",
+      "Redis",
+      "NoSQL",
+      "Sanity CMS"
+    ],
+
+    "ai_ml": [
+      "Machine Learning",
+      "Natural Language Processing",
+      "Large Language Models",
+      "Generative AI",
+      "Retrieval Augmented Generation",
+      "Agentic AI",
+      "Computer Vision",
+      "Vector Embeddings",
+      "Prompt Engineering",
+      "Model Fine-tuning",
+      "LangChain",
+      "LangGraph",
+      "OpenCV",
+      "NumPy",
+      "Pandas",
+      "Scikit-learn",
+      "ONNX",
+      "LiteRT",
+      "WebGPU"
+    ],
+
+    "automation": [
+      "n8n",
+      "AI Workflow Automation",
+      "Agentic Workflows"
+    ],
+
+    "tools": [
+      "Git",
+      "GitHub",
+      "Linux",
+      "Blender",
+      "VS Code",
+      "Orca Agents",
+      "OpenCode"
+    ],
+
+    "ai_tools_and_models": [
+      "Claude",
+      "OpenAI Codex",
+      "Qwen",
+      "Hermes",
+      "DeepSeek"
+    ],
+
+    "areas_of_interest": [
+      "Browser-based AI",
+      "On-device Machine Learning",
+      "AI Agents",
+      "Privacy-focused Applications",
+      "3D Web Experiences"
+    ]
+  },
+
+  "projects": [
+    {
+      "id": "pixelify",
+      "name": "Pixelify",
+      "category": "AI Image Editing Platform",
+      "description": "An AI-powered image editing platform focused on making advanced image editing tools accessible for free, with an emphasis on privacy and browser-based processing.",
+
+      "problem": "Many users have to pay for basic image editing operations such as background removal and image upscaling. Some users cannot afford expensive subscriptions. Uploading personal images to remote servers can also create privacy concerns.",
+
+      "solution": "Developing a privacy-focused image editing platform that aims to perform AI image processing directly on users' devices instead of relying entirely on remote servers.",
+
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "ONNX Runtime",
+        "LiteRT",
+        "WebGPU",
+        "WebAssembly"
+      ],
+
+      "features": [
+        "AI background removal",
+        "Image upscaling",
+        "Browser-based AI inference",
+        "Privacy-focused image processing",
+        "Image editing tools"
+      ],
+
+      "challenges": [
+        "Running large AI models within browser memory limitations",
+        "Optimizing model inference for devices without dedicated GPUs",
+        "Converting AI models into browser-compatible formats",
+        "Balancing image quality, performance and memory consumption"
+      ],
+
+      "status": "Active",
+      "url": "https://www.pixelify.me/"
+    },
+
+    {
+      "id": "diec-vit",
+      "name": "DIEC-ViT",
+      "category": "AI and Computer Vision",
+      "description": "An AI assistant combining tobacco leaf disease diagnosis, computer vision, LLM reasoning and AI-powered product recommendations.",
+
+      "problem": "Users need assistance identifying tobacco leaf diseases and finding relevant product recommendations based on their requirements.",
+
+      "solution": "Developed an AI-powered system combining computer vision and an agentic workflow with retrieval-augmented generation to provide disease diagnosis and contextual product recommendations.",
+
+      "technologies": [
+        "Python",
+        "LangGraph",
+        "RAG",
+        "Computer Vision",
+        "Vector Embeddings",
+        "LLMs"
+      ],
+
+      "features": [
+        "Tobacco leaf disease diagnosis",
+        "AI-powered product retrieval",
+        "Context-aware recommendations",
+        "Multi-step agentic workflow"
+      ],
+
+      "challenges": [
+        "Integrating computer vision with LLM-based reasoning",
+        "Designing multi-step AI workflows",
+        "Implementing contextual information retrieval"
+      ],
+
+      "status": "Completed",
+      "url": "Not Avaiable"
+    },
+
+    {
+      "id": "grocery-ai-app",
+      "name": "Grocery App with AI Chat",
+      "category": "Mobile Application and AI Agent",
+      "description": "A mobile shopping application with an AI chat assistant that helps users discover products and manage their shopping cart through natural language conversations.",
+
+      "problem": "Finding products and manually managing shopping carts can make the shopping experience less convenient.",
+
+      "solution": "Developed an AI-powered shopping assistant that understands product-related questions, suggests relevant products and assists with adding products to the cart automatically.",
+
+      "technologies": [
+        "React Native",
+        "AI Agent",
+        "LLMs"
+      ],
+
+      "features": [
+        "AI-powered product search",
+        "Conversational product recommendations",
+        "Product discovery through chat",
+        "Automatic cart management",
+        "Mobile shopping experience"
+      ],
+
+      "challenges": [
+        "Connecting natural language requests with product information",
+        "Managing shopping cart operations through an AI assistant",
+        "Creating a conversational shopping experience"
+      ],
+
+      "status": "Completed",
+      "url": "Not Avaiable"
+    },
+
+    {
+      "id": "whatsapp-ai-agent",
+      "name": "AI WhatsApp Auto-Reply Agent",
+      "category": "AI Automation",
+      "description": "An automated WhatsApp communication system that generates context-aware responses using AI and connects messaging with automated workflows.",
+
+      "problem": "Responding to incoming messages manually can be time-consuming, especially when similar questions are received repeatedly.",
+
+      "solution": "Built an AI-powered WhatsApp auto-reply workflow that connects messaging, AI inference and application logic to generate automated responses.",
+
+      "technologies": [
+        "n8n",
+        "Node.js",
+        "LLMs",
+        "AI Automation"
+      ],
+
+      "features": [
+        "Automated message handling",
+        "AI-generated replies",
+        "Context-aware response generation",
+        "Multi-step automated workflows"
+      ],
+
+      "challenges": [
+        "Connecting messaging services with AI models",
+        "Designing automated workflows",
+        "Handling context-aware message responses"
+      ],
+
+      "status": "Completed",
+      "url": "Not Avaiable"
+    },
+
+    {
+      "id": "sanityhub",
+      "name": "SanityHub",
+      "category": "File Management Platform",
+      "description": "A web-based file management platform that allows users to upload files and access stored resources from different locations.",
+
+      "problem": "Needed a convenient way to store files and retrieve them from anywhere.",
+
+      "solution": "Developed a file management application using Next.js and Sanity CMS to handle file uploads and structured cloud storage.",
+
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Sanity CMS",
+        "Tailwind CSS"
+      ],
+
+      "features": [
+        "File uploads",
+        "Cloud-based file storage",
+        "File retrieval",
+        "Web-based access to stored resources"
+      ],
+
+      "challenges": [
+        "Integrating Sanity CMS with Next.js",
+        "Managing file uploads and retrieval",
+        "Working with cloud storage"
+      ],
+
+      "status": "Completed",
+      "url": "https://sanityhub.vercel.app/"
+    },
+
+    {
+      "id": "lab-storage",
+      "name": "Lab Experiment Storage Platform",
+      "category": "Web Application",
+      "description": "A storage website created to help friends store and access laboratory experiment materials and related resources.",
+
+      "problem": "Friends needed a convenient place to store laboratory experiment materials and access them when required.",
+
+      "solution": "Built a website based on their requirements to organize and store laboratory-related resources.",
+
+      "technologies": [],
+
+      "features": [
+        "Centralized experiment resource storage",
+        "Access to stored materials"
+      ],
+
+      "challenges": [],
+      "status": "Completed",
+      "url": "Not Avaiable"
+    },
+
+    {
+      "id": "library-management",
+      "name": "Library Management System",
+      "category": "Legacy Software Modernization",
+      "description": "Rebuilt an existing library management software from scratch in collaboration with a friend during the second year of B.Tech.",
+
+      "problem": "An existing library management system needed to be modernized and rebuilt.",
+
+      "solution": "Collaborated with a friend to recreate the old library software from scratch while learning PHP and SQL during the development process.",
+
+      "technologies": [
+        "PHP",
+        "SQL"
+      ],
+
+      "features": [
+        "Library management functionality",
+        "Rebuilt software system"
+      ],
+
+      "challenges": [
+        "Understanding an existing legacy system",
+        "Learning PHP and SQL during development",
+        "Rebuilding an application from scratch"
+      ],
+
+      "status": "Completed",
+      "url": "Not Avaiable"
+    }
+  ],
+
+  "experience": [
+    {
+      "id": "google-cloud-genai-intern",
+      "role": "Google Cloud Generative AI Intern",
+      "company": "SmartBridge Educational Services Pvt. Ltd.",
+      "program": "Generative AI Internship",
+      "start_date": "2026-01",
+      "end_date": "2026-03",
+      "description": "Worked on Generative AI applications, LLM-based solutions and cloud-based AI workflows.",
+
+      "responsibilities": [
+        "Developed AI-powered applications using Generative AI and LLMs",
+        "Built an AI-powered WhatsApp auto-reply system",
+        "Designed automated AI workflows using n8n",
+        "Integrated external services, AI models and application components"
+      ],
+
+      "skills_learned": [
+        "Google Cloud",
+        "Generative AI",
+        "Large Language Models",
+        "n8n",
+        "AI Workflow Automation"
+      ]
+    },
+
+    {
+      "id": "mern-intern",
+      "role": "Full Stack Development Intern",
+      "company": "SmartBridge Educational Services Pvt. Ltd.",
+      "program": "MERN Stack Internship",
+      "start_date": "2025-04",
+      "end_date": "2025-07",
+      "description": "Worked on full-stack web application development using the MERN technology stack.",
+
+      "responsibilities": [
+        "Developed web applications using MongoDB, Express.js, React.js and Node.js",
+        "Designed and consumed RESTful APIs",
+        "Integrated frontend and backend components",
+        "Debugged application integration issues",
+        "Delivered functional end-to-end features"
+      ],
+
+      "skills_learned": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "REST APIs",
+        "Full Stack Development"
+      ]
+    }
+  ],
+
+  "certifications": [
+    {
+      "name": "IBM Cloud Platform in Emerging Technologies (AI & Cloud)",
+      "issuer": "Edunet Foundation"
+    },
+    {
+      "name": "Python for Data Science, AI & Development",
+      "issuer": "Coursera"
+    }
+  ],
+
+  "achievements": [],
+
+  "goals": {
+    "career_goal": "Build useful AI-powered software products and eventually establish my own AI-focused business, creating practical solutions that help individuals, startups and businesses of different sizes.",
+
+    "current_learning": [
+      "Next.js",
+      "TypeScript",
+      "Agentic AI",
+      "AI Agents",
+      "Machine Learning",
+      "Natural Language Processing",
+      "Computer Vision",
+      "Blender 3D",
+      "Browser-based AI inference"
+    ],
+
+    "future_projects": [
+      "Develop lightweight AI models that run entirely in web browsers",
+      "Build privacy-focused AI applications",
+      "Explore AI agents and autonomous workflows",
+      "Create interactive 3D web experiences",
+      "Build practical AI solutions for businesses"
+    ]
+  },
+
+  "faq": [
+    {
+      "question": "Who is Yaswanth?",
+      "intent": "ABOUT",
+      "answer": "Yaswanth is a Computer Science graduate and developer interested in full-stack development, mobile applications and AI-powered software."
+    },
+    {
+      "question": "What does Yaswanth specialize in?",
+      "intent": "SKILLS",
+      "answer": "He works across web development, mobile applications and AI-powered application development, with interests in NLP, LLMs, computer vision and agentic AI."
+    },
+    {
+      "question": "What is his most notable AI project?",
+      "intent": "PROJECTS",
+      "answer": "DIEC-ViT is one of his AI projects, combining computer vision, LLM reasoning, LangGraph and retrieval-augmented generation."
+    },
+    {
+      "question": "What is Pixelify?",
+      "intent": "PROJECT_DETAILS",
+      "entity": "pixelify",
+      "answer": "Pixelify is an AI-powered image editing platform focused on free image enhancement and privacy-focused, browser-based processing."
+    },
+    {
+      "question": "Does he develop mobile applications?",
+      "intent": "MOBILE_DEVELOPMENT",
+      "answer": "Yes. He has developed a grocery shopping application with React Native and an AI chat assistant for product discovery and cart management."
+    },
+    {
+      "question": "What is his educational qualification?",
+      "intent": "EDUCATION",
+      "answer": "He completed his B.Tech in Computer Science and Engineering from Seshadri Rao Gudlavalleru Engineering College with an 8.18 CGPA."
+    },
+    {
+      "question": "Does he have internship experience?",
+      "intent": "EXPERIENCE",
+      "answer": "Yes. He has worked as a Google Cloud Generative AI Intern and a Full Stack Development Intern at SmartBridge Educational Services."
+    },
+    {
+      "question": "What are his hobbies?",
+      "intent": "INTERESTS",
+      "answer": "His interests include Blender 3D, web development, mobile applications, artificial intelligence, gaming and video editing."
+    },
+    {
+      "question": "What are his career goals?",
+      "intent": "CAREER_GOALS",
+      "answer": "He wants to build practical AI-powered products and eventually establish his own AI-focused business."
+    },
+    {
+      "question": "How can I contact him?",
+      "intent": "CONTACT",
+      "answer": "You can contact Yaswanth through his email, GitHub or LinkedIn profile."
+    }
+  ],
+
+  "assistant_config": {
+    "assistant_name": "Yaswanth AI",
+    "identity": "Personal portfolio assistant",
+    "purpose": "Answer questions about Yaswanth's background, education, skills, projects, experience, interests and career goals.",
+    "response_style": "Friendly, conversational, concise and informative",
+    "speak_about_owner_in": "third_person",
+    "supported_topics": [
+      "About",
+      "Education",
+      "Skills",
+      "Projects",
+      "Experience",
+      "Certifications",
+      "Interests",
+      "Career Goals",
+      "Contact"
+    ],
+    "rules": [
+      "Only provide information supported by the profile data.",
+      "Never invent experience, skills, achievements or project details.",
+      "If information is unavailable, clearly say that it is not available.",
+      "Answer follow-up questions using the previous conversation context.",
+      "Do not claim that the owner is an expert in a technology without supporting information.",
+      "Keep answers relevant to the visitor's question.",
+      "When asked about a project, explain its problem, solution, technologies and features when available."
+    ]
+  }
+}

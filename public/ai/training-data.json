@@ -1,0 +1,127 @@
+
+[
+  {"text":"Who is Yaswanth?","intent":"ABOUT"},
+  {"text":"Tell me about yourself","intent":"ABOUT"},
+  {"text":"Introduce Yaswanth","intent":"ABOUT"},
+  {"text":"Who is this developer?","intent":"ABOUT"},
+  {"text":"Give me his background","intent":"ABOUT"},
+
+  {"text":"What programming languages does he know?","intent":"SKILLS"},
+  {"text":"What technologies does Yaswanth use?","intent":"SKILLS"},
+  {"text":"Does he know Python and Java?","intent":"SKILLS"},
+  {"text":"Tell me about his technical skills","intent":"SKILLS"},
+  {"text":"What frameworks does he work with?","intent":"SKILLS"},
+
+  {"text":"Show me his projects","intent":"PROJECTS"},
+  {"text":"What applications has he developed?","intent":"PROJECTS"},
+  {"text":"What software has he built?","intent":"PROJECTS"},
+  {"text":"Tell me about his development work","intent":"PROJECTS"},
+  {"text":"Which projects has he completed?","intent":"PROJECTS"},
+
+  {"text":"Explain Pixelify","intent":"PROJECT_DETAILS"},
+  {"text":"Tell me about SanityHub","intent":"PROJECT_DETAILS"},
+  {"text":"What is DIEC ViT?","intent":"PROJECT_DETAILS"},
+  {"text":"Explain the grocery shopping application","intent":"PROJECT_DETAILS"},
+  {"text":"How does his WhatsApp AI agent work?","intent":"PROJECT_DETAILS"},
+  {"text":"Tell me about his library software","intent":"PROJECT_DETAILS"},
+
+  {"text":"What is his educational qualification?","intent":"EDUCATION"},
+  {"text":"Where did he study?","intent":"EDUCATION"},
+  {"text":"Tell me about his college","intent":"EDUCATION"},
+
+  {"text":"Does he have work experience?","intent":"EXPERIENCE"},
+  {"text":"Where did he do his internship?","intent":"EXPERIENCE"},
+  {"text":"Tell me about his SmartBridge internship","intent":"EXPERIENCE"},
+  {"text":"What work has he done professionally?","intent":"EXPERIENCE"},
+  {"text":"Has he worked with Google Cloud?","intent":"EXPERIENCE"},
+
+  {"text":"What certificates does he have?","intent":"CERTIFICATIONS"},
+  {"text":"Does he have any certifications?","intent":"CERTIFICATIONS"},
+  {"text":"Which courses has he completed?","intent":"CERTIFICATIONS"},
+
+  {"text":"What are his hobbies?","intent":"INTERESTS"},
+  {"text":"What does he enjoy doing?","intent":"INTERESTS"},
+  {"text":"Does he like Blender?","intent":"INTERESTS"},
+  {"text":"What are his interests outside coding?","intent":"INTERESTS"},
+
+  {"text":"What are his future plans?","intent":"CAREER_GOALS"},
+  {"text":"What does he want to become?","intent":"CAREER_GOALS"},
+  {"text":"Does he want to start a company?","intent":"CAREER_GOALS"},
+  {"text":"What is his career ambition?","intent":"CAREER_GOALS"},
+
+  {"text":"How can I contact him?","intent":"CONTACT"},
+  {"text":"Give me his email address","intent":"CONTACT"},
+  {"text":"Where can I find his GitHub?","intent":"CONTACT"},
+  {"text":"Does he have LinkedIn?","intent":"CONTACT"},
+
+  {"text":"Hello","intent":"GREETING"},
+  {"text":"Hi there","intent":"GREETING"},
+  {"text":"Hey","intent":"GREETING"},
+  {"text":"Good morning","intent":"GREETING"},
+
+  {"text":"Thank you","intent":"THANKS"},
+  {"text":"Thanks for your help","intent":"THANKS"},
+  {"text":"That was helpful","intent":"THANKS"},
+  
+  {
+    "text": "What can you do?",
+    "intent": "CAPABILITIES"
+  },
+  {
+    "text": "What can I ask you?",
+    "intent": "CAPABILITIES"
+  },
+  {
+    "text": "How can you help me?",
+    "intent": "CAPABILITIES"
+  },
+  {
+    "text": "What information do you know about Yaswanth?",
+    "intent": "CAPABILITIES"
+  },
+  {
+    "text": "Tell me what you know about him",
+    "intent": "CAPABILITIES"
+  },
+  {
+    "text": "What topics can we discuss?",
+    "intent": "CAPABILITIES"
+  },
+  {
+    "text": "What are your limitations?",
+    "intent": "CAPABILITIES"
+  },
+  {
+    "text": "Can you explain his projects?",
+    "intent": "CAPABILITIES"
+  },
+  {
+    "text": "What makes him different?",
+    "intent": "PERSONALITY"
+  },
+  {
+    "text": "Describe his personality",
+    "intent": "PERSONALITY"
+  },
+  {
+    "text": "Is he a self learner?",
+    "intent": "PERSONALITY"
+  },
+  {
+    "text": "What does he want to achieve?",
+    "intent": "CAREER_GOALS"
+  },
+  {
+    "text": "What are his ambitions?",
+    "intent": "CAREER_GOALS"
+  },
+  {
+    "text": "What is he currently learning?",
+    "intent": "CURRENT_LEARNING"
+  },
+  {
+    "text": "Which technologies is he exploring?",
+    "intent": "CURRENT_LEARNING"
+  }
+]
+
