@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <link rel="icon" type="image/svg+xml" href="/3d_portfolio/favicon.svg" />
+    <title>3D Portfolio</title>
+    <style>
+      html,
+      body,
+      #root {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        height: 100dvh;
+        overflow: hidden;
+        overscroll-behavior: none;
+        background: #1a1a1a;
+      }
+      .viewport {
+        position: fixed;
+        inset: 0;
+      }
+      /* Sits left of the speaker button: 16px margin + 38px button + 12px gap. */
+      .exit-host {
+        position: fixed;
+        top: calc(env(safe-area-inset-top, 0px) + 14px);
+        right: calc(env(safe-area-inset-right, 0px) + 66px);
+        z-index: 9999;
+      }
+      .exit-zoom {
+        font: 600 13px/1 system-ui, sans-serif;
+        color: #e8e8ef;
+        background: rgba(10, 10, 14, 0.72);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 8px;
+        padding: 9px 14px;
+        cursor: pointer;
+      }
+      .exit-zoom:hover {
+        background: rgba(30, 30, 40, 0.85);
+      }
+      .sound-host {
+        position: fixed;
+        top: calc(env(safe-area-inset-top, 0px) + 14px);
+        right: calc(env(safe-area-inset-right, 0px) + 16px);
+        z-index: 9999;
+      }
+      .sound-toggle {
+        display: grid;
+        place-items: center;
+        width: 38px;
+        height: 38px;
+        padding: 0;
+        color: #e8e8ef;
+        background: rgba(10, 10, 14, 0.72);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .sound-toggle:not(:disabled):hover {
+        background: rgba(30, 30, 40, 0.85);
+      }
+      .sound-toggle:disabled {
+        opacity: 0.45;
+        cursor: not-allowed;
+      }
+      @media (max-width: 640px) {
+        .sound-toggle {
+          width: 44px;
+          height: 44px;
+        }
+        .exit-host {
+          right: calc(env(safe-area-inset-right, 0px) + 68px);
+        }
+        .exit-zoom {
+          font-size: 12px;
+          padding: 10px 11px;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/3d_portfolio/assets/index-CD2GQWnW.js"></script>
+    <link rel="stylesheet" crossorigin href="/3d_portfolio/assets/index-CEfBiz40.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

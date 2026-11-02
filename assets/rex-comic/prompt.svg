@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" fill="none">
+ <path d="M69 45 174 18l95 11 121-7 65 51-5 100-37 57-105 15-45 55-48-37-111 11-64-48-15-91z" fill="#090e15" stroke="#05d9f5" stroke-width="10" stroke-linejoin="round"/>
+ <path d="m58 56 113-37 98 12 129-9 55 41-12 99-29 53-115 17-42 48-52-36-116 6-59-47-10-93z" stroke="#ff1836" stroke-width="8" stroke-linejoin="round"/>
+ <path d="m72 48 102-23m119 10 108-9m-320 179 72 45m204-26 49-63" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+ <text x="258" y="118" text-anchor="middle" fill="#fff" font-family="Impact, 'Arial Black', sans-serif" font-size="71" font-style="italic" font-weight="900" letter-spacing="-3" transform="rotate(-8 258 118)">CLICK</text>
+ <text x="263" y="190" text-anchor="middle" fill="#ff1836" stroke="#ff1836" stroke-width="1" font-family="Impact, 'Arial Black', sans-serif" font-size="73" font-style="italic" font-weight="900" letter-spacing="-2" transform="rotate(-8 263 190)">HERE!</text>
+ <path d="m305 260 54-6-20 32-12-7-13 15z" fill="#05d9f5" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+</svg>
