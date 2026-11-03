@@ -5,6 +5,8 @@ import ScreenFocus from './ScreenFocus.jsx'
 import RexComic from './RexComic.jsx'
 import { isRexSpeaking, playRexSound, subscribeRexSpeaking } from '../utils/audio.js'
 import FramesDisplayManager from './FramesVideoReplacer.jsx'
+import CyberTvFloat from './CyberTvFloat.jsx'
+import CyberTvClock from './CyberTvClock.jsx'
 
 /**
  * Loads the 3D portfolio room model and attaches interactive overlays
@@ -46,6 +48,8 @@ export default function Model({ focusApi, onFocusChange, focusView, duckRef }) {
   return (
     <>
       <primitive object={scene} />
+      <CyberTvFloat scene={scene} />
+      <CyberTvClock scene={scene} />
       <FramesDisplayManager
         scene={scene}
         active={rexSpeaking}

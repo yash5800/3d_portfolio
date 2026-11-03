@@ -35,6 +35,28 @@ export const CAMERA_SETTINGS = {
 }
 
 
+/** Live unique visitor total painted on the cybertv glass. */
+export const VISITOR_COUNT_URL = 'https://ffjokerking580.goatcounter.com/counter/TOTAL.json'
+export const VISITOR_COUNT_REFRESH_MS = 5 * 60 * 1000
+
+/**
+ * Idle float for the cybertv robot: a slow, out-of-phase hover so it reads as
+ * suspended in the air rather than sliding on a fixed loop.
+ * - bob/drift are world units; tilt/pointerLean are radians.
+ */
+export const CYBERTV_FLOAT = {
+  bob: 0.075,
+  bobSpeed: 0.9,
+  drift: 0.035,
+  driftSpeed: 0.42,
+  tiltX: 0.035,
+  tiltY: 0.06,
+  tiltZ: 0.03,
+  tiltSpeed: 0.55,
+  pointerLean: 0.05,
+  leanDamping: 3.2,
+}
+
 /**
  * Three.js WebGL renderer settings
  */

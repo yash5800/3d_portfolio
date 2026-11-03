@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>cybertv clock preview</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        background: #15171a;
+      }
+      canvas {
+        width: 440px;
+        height: 392px;
+        border: 10px solid #2a2d31;
+        border-radius: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="clock"></canvas>
+    <script type="module">
+      import {
+        CLOCK_TEXTURE_HEIGHT,
+        CLOCK_TEXTURE_WIDTH,
+        drawClock,
+      } from '/src/utils/cyberTvClock.js'
+
+      const canvas = document.getElementById('clock')
+      canvas.width = CLOCK_TEXTURE_WIDTH
+      canvas.height = CLOCK_TEXTURE_HEIGHT
+      const ctx = canvas.getContext('2d')
+
+      const tick = () => {
+        const now = new Date()
+        drawClock(ctx, now, now.getSeconds() % 2 === 0, '1,284')
+        requestAnimationFrame(tick)
+      }
+      tick()
+    </script>
+  </body>
+</html>
